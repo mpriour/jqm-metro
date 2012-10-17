@@ -1,0 +1,47 @@
+<div data-role="page" id="forms" data-dom-cache="true" data-theme="a"><!-- page-->
+    <div data-role="header" data-theme="a">
+        <h1>Page</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" data-theme="a">
+            
+        <form action="#" method="get">
+            <h2>Here's a few form elements</h2>
+
+            <p>These are here to show what they look like in Metro style.</p>
+
+            <div data-role="fieldcontain">
+             <label for="name">Text Input:</label>
+             <input type="text" name="name" id="name" value=""  />
+            </div>
+
+            <div data-role="fieldcontain">
+            <label for="textarea">Textarea:</label>
+            <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+            </div>
+
+            <div data-role="fieldcontain">
+                <label for="slider2">Flip switch:</label>
+                <select name="slider2" id="slider2" data-role="slider">
+                    <option value="off">Off</option>
+                    <option value="on">On</option>
+                </select>
+            </div>
+
+            <div data-role="fieldcontain">
+                <label for="slider">Slider:</label>
+                <input type="range" name="slider" id="slider" value="0" min="0" max="100" data-highlight="true" />
+            </div>
+                    
+        </form>
+        
+        <a href="index.html" data-role="button" data-theme="a" data-rel="back" data-inline="true">Take me back</a>   
+    </div>
+    
+    <div data-role="footer" data-theme="a">
+        <div style="margin:5px 10px;"><!-- To add a bit of spacing -->
+        <label for="search" class="ui-hidden-accessible">Search:</label>
+        <input type="search" name="password" id="search" placeholder="Search..." value="" />
+        </div>
+    </div><!-- /footer -->
+</div>
